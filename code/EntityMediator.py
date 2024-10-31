@@ -40,6 +40,7 @@ class EntityMediator:
                 ent2.health -= ent1.damage
                 ent1.last_dmg = ent2.name
                 ent2.last_dmg = ent1.name
+
     @staticmethod
     def __give_score(enemy: Enemy, entity_list: list[Entity]):
         if enemy.last_dmg == 'Player1Shot':
@@ -50,6 +51,7 @@ class EntityMediator:
             for ent in entity_list:
                 if ent.name == 'Player2':
                     ent.score += enemy.score
+
     @staticmethod
     def verify_collision(entity_list: list[Entity]):
         for i in range(len(entity_list)):
