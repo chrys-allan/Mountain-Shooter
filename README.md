@@ -4,7 +4,7 @@
 
 ### About
 
-Mountain Shooter is a 2D arcade game developed with Pygame. The game has 3 levels and each level level end with a timeout event. Score is saved in database (SQLite3))
+Mountain Shooter is a 2D arcade game developed with Pygame. The game has 3 levels and each level end with a timeout event. Score is saved in database (SQLite3)
 
 
 
